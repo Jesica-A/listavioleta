@@ -82,13 +82,6 @@ main{
     width: 80%;
 }
 
-.conocenos{
-    position: relative;
-    text-align: center !important;
-}
-
-
-
 .presentacion > i{
     font-size: 4rem;
     position: relative;
@@ -99,6 +92,10 @@ main{
     
 }
 
+.conocenos{
+    position: relative;
+    text-align: center !important;
+}
 
 .position{
     display: flex;
@@ -108,11 +105,13 @@ main{
     gap: 0.7rem;
 }
 
-
 .position > i{
     font-size: 2.5rem;
 }
 
+.propuesta > .phrase-container{
+    align-items: start !important;
+}
 
 section{
     position: relative;
@@ -175,6 +174,10 @@ section > div > div{
 .phrase-container > p{
     word-spacing: 0.2rem;
     position: relative;
+}
+
+.phrase-container > .position > h2{
+    font-size: 1.5rem !important;
 }
 
 .propuesta {
@@ -395,8 +398,8 @@ section > div > div{
       .position{
         width: 80%;
         font-size: 1.1rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        /* margin-top: 3rem;
+        margin-bottom: 3rem; */
         }
 
     .img-container > img{
@@ -407,7 +410,7 @@ section > div > div{
     .position > h2{
         text-align: center;
         width: 70%;
-        font-size: 1.8em;
+        font-size: 1.7em;
     }
 
     .arrow-up{
