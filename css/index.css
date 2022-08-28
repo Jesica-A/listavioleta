@@ -227,6 +227,11 @@ section > div > div{
     width: 100px;
     border-radius: 50%;
 }
+.logo1 > img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
 
 @keyframes bounce {
     0% {
@@ -365,6 +370,11 @@ section > div > div{
     .logo > img{
         height: 80px;
         width: 80px;
+        border-radius: 50%;
+    }
+    .logo1 > img{
+        height: 200px;
+        width: 200px;
         border-radius: 50%;
     }
 
