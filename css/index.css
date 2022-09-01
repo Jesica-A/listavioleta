@@ -59,14 +59,18 @@ main{
     background-color: #0e0b1a98; 
   }*/
 
-.presentacion > h1{
+.prin{
+    display: flex;
+}
+
+.pres > h1{
     position: relative;
     font-size: 3rem;
     text-decoration: underline;
     text-align: center;
 }
 
-.presentacion > h2{
+.presentacion, .propuesta > h2{
     position: relative;
     font-size: 2rem;
 }
@@ -78,13 +82,6 @@ main{
     width: 80%;
 }
 
-.conocenos{
-    position: relative;
-    text-align: center !important;
-}
-
-
-
 .presentacion > i{
     font-size: 4rem;
     position: relative;
@@ -95,6 +92,10 @@ main{
     
 }
 
+.conocenos{
+    position: relative;
+    text-align: center !important;
+}
 
 .position{
     display: flex;
@@ -104,11 +105,13 @@ main{
     gap: 0.7rem;
 }
 
-
 .position > i{
     font-size: 2.5rem;
 }
 
+.propuesta > .phrase-container{
+    align-items: start !important;
+}
 
 section{
     position: relative;
@@ -119,12 +122,12 @@ section{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 3rem;
-    /* background-color: #27243A; */
-    /* background-image: url('../img/fondo-violeta.webp');
+    /* background-color: #27243A;
+    background-image: url('../img/fondo-violeta.webp');
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat; */
-    /* background: url('../img/debug-background.jpg');
+    background-repeat: no-repeat;
+    background: url('../img/debug-background.jpg');
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat; */
@@ -173,7 +176,16 @@ section > div > div{
     position: relative;
 }
 
+.phrase-container > .position > h2{
+    font-size: 1.5rem !important;
+}
 
+.propuesta {
+    background-image: none !important;
+    margin: 0 4rem;
+}
+
+/*
 .whatsapp-link{
     font-size: 1.1rem;
     padding: 0.5rem;
@@ -191,7 +203,7 @@ section > div > div{
     gap: 1rem;
 }
 
-.whatsapp-link > i {
+ .whatsapp-link > i {
     font-size: 1.3rem;
 }
 
@@ -202,7 +214,7 @@ section > div > div{
     transition: 0.4s ease-in all;
 }
 
-
+ */
 .img-container > img{
     height: 300px;
     width: 300px;
@@ -210,7 +222,16 @@ section > div > div{
     /* background-color: #78D1CC;*/
     box-shadow: 0px 0px 10px #7713cfd3; 
 }
-
+.logo > img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.logo1 > img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
 
 @keyframes bounce {
     0% {
@@ -300,8 +321,8 @@ section > div > div{
       .position{
         width: 80%;
         font-size: 1.1rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
         }
 
     .img-container > img{
@@ -346,6 +367,20 @@ section > div > div{
         font-size: 1.5rem;
     }
 
+    .logo > img{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+    .logo1 > img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .propuesta{
+        margin: 0rem;
+    }
 
     @keyframes bounce {
         0% {
@@ -373,8 +408,8 @@ section > div > div{
       .position{
         width: 80%;
         font-size: 1.1rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        /* margin-top: 3rem;
+        margin-bottom: 3rem; */
         }
 
     .img-container > img{
@@ -385,7 +420,7 @@ section > div > div{
     .position > h2{
         text-align: center;
         width: 70%;
-        font-size: 1.8em;
+        font-size: 1.7em;
     }
 
     .arrow-up{
